@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+autoload -U zmv
+
+zmv '* *' '$f:gs/ /-'
+zmv '(*)' '${(L)1}'
