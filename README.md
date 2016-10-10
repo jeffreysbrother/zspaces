@@ -1,8 +1,8 @@
 #Zspaces
 
-A Zsh version of [this Python script](https://github.com/jeffreysbrother/spaces).
+A Zsh version of [this Python script](https://github.com/jeffreysbrother/spaces). See comparison below.
 
-###Zsh script:
+####Zsh script:
 
 ```zsh
 #!/bin/zsh
@@ -12,7 +12,7 @@ zmv '* *' '$f:gs/ /-'
 zmv '(*)' '${(L)1}'
 ```
 
-###Python script:
+####Python script:
 ```python
 #!/usr/bin/python
 import os
